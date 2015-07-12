@@ -1,0 +1,29 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    |     
+    title Filmify
+    link(rel='stylesheet', href='stylesheets/style.css')
+  |   
+  body
+    label Film:
+    |     
+    input#title(type='text', name='title')
+    |     
+    button#search Search
+    |     
+    div
+      p
+        | Title: 
+        span#filmTitle
+      |       
+      p
+        | Year: 
+        span#year
+      |       
+      img#poster(src='')
+  |   
+  script(src='https://code.jquery.com/jquery-2.1.4.js')
+  |   
+  script(src='javascripts/index.js')
